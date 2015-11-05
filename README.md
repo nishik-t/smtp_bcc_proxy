@@ -7,6 +7,13 @@ It is similar to always_bcc option at postfix.
 
 ## Description
 
+When you want to work with e-mail archiver in sendmail, there is no option such as always_bcc of postfix.
+This program is a daemon that has been made with Ruby, will operate as an SMTP proxy server .
+What you are doing is simple . This program inserts a RCPT TO of BCC after the RCPT TO command of the SMTP communication .
+
+The authors of this program , according to the original code , is Makoto ODA <oda [at-mark] cobaltresq.com>.
+I modified this program , available at the GPLv2 license .
+
 ## Requirement
 
 Ruby 1.8.7 or over
