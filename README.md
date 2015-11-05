@@ -29,6 +29,7 @@ Change settings ...
     SMTPServerPort=587 
     LocalPort=xxxx 
     mynetwork=["127.0.0.1","xxx.xxx.xxx.xxx"]
+    bcc = "RCPT TO: <bcc mailaddress>\r\n"
 
 and Type command.
 
